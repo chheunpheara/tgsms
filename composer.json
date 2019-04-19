@@ -3,5 +3,8 @@
     "description": "Minimal features of telegram bot",
     "type": "library",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    }
 }
