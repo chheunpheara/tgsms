@@ -1,12 +1,10 @@
 <?php
 
-namespace src\TG\SMS;
+namespace src\sms;
 
-require 'tginterface.php';
+use src\sms\tginterface\tginterface;
 
-use src\TGInterface\TG;
-
-class SMS implements TG {
+class tgsms implements tginterface {
 
     /**
      * Send message to telegram

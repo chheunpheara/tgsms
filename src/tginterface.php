@@ -1,8 +1,8 @@
 <?php
 
-namespace src\TGInterface;
+namespace src\sms\tginterface;
 
-interface TG {
+interface tginterface {
 
     public function send($url, $endpoint, array $param);
 }
