@@ -1,17 +1,15 @@
 {
+    "name": "phearaeun/tgsms",
+    "description": "Minimal features of telegram bot",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {},
     "repositories": [
         {
             "type": "package",
             "package": {
                 "name": "phearaeun/tgsms",
-                "description": "Minimal features of telegram bot",
-                "require": {},
                 "version": "1.0",
-                "source": {
-                    "type": "git",
-                    "reference": "master",
-                    "url": "https://github.com/customPackage/name"
-                },
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -22,5 +20,3 @@
         }
     ]
 }
-
-
