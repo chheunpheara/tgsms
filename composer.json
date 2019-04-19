@@ -13,9 +13,8 @@
                 "type": "library",
                 "autoload": {
                     "psr-0": {
-                        "CustomNamespace": "src/"
-                    },
-                    "files": ["autoload.php"]
+                        "classmap": ["src/", "autoload.php"]
+                    }
                 }
             }
         }
