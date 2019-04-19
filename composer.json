@@ -1,5 +1,5 @@
 {
-    "name": "rdev/tgsms",
+    "name": "phearaeun/tgsms",
     "description": "Minimal features of telegram bot",
     "type": "library",
     "minimum-stability": "dev",
